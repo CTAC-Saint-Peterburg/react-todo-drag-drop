@@ -50,7 +50,9 @@ export default function DragNdrop(props) {
   }
   return (
     <div>
-      <button onClick={addTask}>добавить задание</button>
+      <button onClick={addTask} className={style.addButton}>
+        добавить задание
+      </button>
       <div className={style.dragNdrop}>
         {list.map((grp, grpI) => (
           <div
