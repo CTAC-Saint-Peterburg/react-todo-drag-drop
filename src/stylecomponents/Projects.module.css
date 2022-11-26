@@ -1,0 +1,27 @@
+.main {
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 5px;
+  width: 600px;
+  background: black;
+  border-radius: 12px;
+  border: 2px solid #3adeac;
+}
+.projectsHeader {
+  margin: 0 auto;
+  text-align: center;
+  color: aliceblue;
+}
+.addbutton {
+  margin: 0 auto;
+  width: 100px;
+  height: 40px;
+  background-color: aqua;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.divAdd {
+  margin: 0 auto;
+  width: 100px;
+}

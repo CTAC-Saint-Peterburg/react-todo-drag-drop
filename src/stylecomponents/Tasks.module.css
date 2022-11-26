@@ -1,0 +1,34 @@
+.dragNdrop {
+  padding: 5px;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 10px;
+}
+.dndGroup {
+  background-color: rgb(161, 239, 213);
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+.dndGroupTitle {
+  text-align: left;
+  margin-bottom: 4px;
+}
+.dndItem {
+  min-height: 150px;
+  background-color: #e88989;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+  font-size: 44px;
+}
+.dndItem:not(:last-of-type) {
+  margin-bottom: 0.5rem;
+}
+.dndItem * {
+  margin: 0;
+}
+.current {
+  background-color: #8daef9;
+}

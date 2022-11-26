@@ -1,0 +1,22 @@
+.projects {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  margin-top: 4px;
+  width: 100%;
+  height: 40px;
+  background-color: beige;
+}
+.h1 {
+  margin: 0 auto;
+  text-align: center;
+}
+.editbutton {
+  width: 110px;
+  padding: 3px;
+  background-color: gold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
