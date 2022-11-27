@@ -21,11 +21,9 @@
 }
 .dndItem {
   min-height: 150px;
-  background-color: #e88989;
+  background-color: #fafafa;
   border-radius: 5px;
   color: black;
-  text-align: center;
-  font-size: 44px;
 }
 .dndItem:not(:last-of-type) {
   margin-bottom: 0.5rem;

@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState, useRef } from "react";
 import style from "../stylecomponents/Tasks.module.css";
+import CardDnd from "./CardDnd";
 export default function DragNdrop(props) {
   const [list, setList] = useState(props.data);
   const [dragging, setDragging] = useState(false);
@@ -45,7 +46,9 @@ export default function DragNdrop(props) {
   };
   function addTask() {
     const updateData = Object.assign([], list);
-    updateData[0].items.push(`${Math.floor(Math.random() * 999)}`);
+    updateData[0].items.push(
+      `Project name:${Math.floor(Math.random() * 9999)}`
+    );
     setList(updateData);
   }
   return (
@@ -77,7 +80,7 @@ export default function DragNdrop(props) {
                   dragging ? changeStyle({ grpI, itemI }) : `${style.dndItem}`
                 }
               >
-                {item}
+                <CardDnd title={item} />
               </div>
             ))}
           </div>

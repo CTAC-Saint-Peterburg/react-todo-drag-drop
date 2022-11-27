@@ -1,0 +1,34 @@
+.title {
+  text-align: center;
+  font-size: 18px;
+}
+.description {
+  padding: 10px;
+}
+.description h3 {
+  padding: 4px;
+  text-align: left;
+  font-size: 16px;
+}
+.data {
+  margin-top: 5px;
+  padding: 2px;
+  margin-bottom: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  font-size: 14px;
+}
+.priority {
+  margin-left: 10px;
+  text-align: center;
+  color: white;
+  width: 50px;
+  border-radius: 12px;
+  background-color: #ed5f5f;
+}
+.subTask h3 {
+  padding: 4px;
+  text-align: left;
+  font-size: 16px;
+}
